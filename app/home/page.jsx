@@ -31,9 +31,9 @@ function page() {
               onClick={toggleVisibility}
             >
               {isVisible ? (
-                <EyeOff className="text-2xl text-default-400 pointer-events-none" />
-              ) : (
                 <Eye className="text-2xl text-default-400 pointer-events-none" />
+              ) : (
+                <EyeOff className="text-2xl text-default-400 pointer-events-none" />
               )}
             </button>
           }
